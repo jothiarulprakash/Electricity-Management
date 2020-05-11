@@ -1,0 +1,7 @@
+single phase electric meter
+
+small current measuring device
+
+aurdino board
+
+selva- cloud condition evaluation

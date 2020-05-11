@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context="com.example.sai.avinash.SignUpPage">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <EditText
+                android:id="@+id/myLoginIdEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColorHint="#fff"
+                android:textColor="#fff"
+                android:inputType="textPersonName"
+                android:hint="Enter Login ID" />
+
+
+            <EditText
+                android:id="@+id/myPasswordFieldEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:textColorHint="#fff"
+                android:textColor="#fff"
+                android:hint="Enter New Password"
+                android:inputType="textPassword" />
+
+
+            <EditText
+                android:id="@+id/myTotalMeter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName"
+                android:hint="Number of Meter" />
+
+            <EditText
+                android:id="@+id/myFirstNameEditText"
+                android:layout_width="match_parent"
+                android:hint="First Name"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:layout_marginTop="10dp"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/myLastNameEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColorHint="#fff"
+                android:layout_marginTop="10dp"
+                android:hint="Last Name"
+                android:textColor="#fff"
+                android:inputType="textPersonName" />
+
+
+            <EditText
+                android:id="@+id/myEmailIdEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textColorHint="#fff"
+                android:textColor="#fff"
+                android:layout_marginTop="10dp"
+                android:hint="Email ID"
+                android:inputType="textEmailAddress" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SELECT DOB"
+
+                    android:id="@+id/myDateBtn" />
+                <EditText
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/myIn_DateEditText"
+                    android:textColor="#fff"
+                    android:layout_marginTop="10dp" />
+            </LinearLayout>
+
+
+
+
+            <EditText
+                android:id="@+id/myPhoneNumberEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Phone Number"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:inputType="phone" />
+
+
+            <EditText
+                android:id="@+id/myAddresseEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Address"
+                android:textColor="#fff"
+                android:textColorHint="#fff"
+                android:inputType="textMultiLine" />
+
+
+            <Button
+                android:id="@+id/mySubmitBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
